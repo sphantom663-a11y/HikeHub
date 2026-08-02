@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+.KENZZZ {
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+.KENZZZ:hover { background-color: #e65c00; }
+
+.PEL {
+  background: url('FIRST\ PAGE.jpeg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.KENZ h1 { font-size: 4rem; margin-bottom: 15px; }
+.KENZ h2 { font-size: 2rem; margin-bottom: 15px; }
+.KENZ p { font-size: 1.2rem; margin-bottom: 25px; }
+
+.PELLL {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background-color: #f5f0e6;
+}
+.ZIEEE { flex: 1; padding-right: 40px; max-width: 600px; }
+.ZIEEE h1 { font-size: 2.5rem; margin-bottom: 20px; }
+.ZIEEE p { font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px; }
+.FEII { display: flex; gap: 15px; flex-wrap: wrap; }
+.VEL { flex: 1; text-align: right; }
+.VEL img { max-width: 100%; border-radius: 10px; }
+
+.anything {
+  background-color: #504128;
+  padding: 60px;
+  text-align: center;
+}
+.anything h1 { font-size: 2.5rem; margin-bottom: 40px; color: #fdf6ea; }
+.HARUSNYABEBAS {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.BEBAS {
+  background: #f5f0e6;
+  border-radius: 10px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+.BEBAS h2 { margin-bottom: 15px; color: #ff6600; }
+.BEBAS ul { margin-bottom: 20px; padding-left: 20px; }
+.BEBAS li { margin-bottom: 8px; }
+
+.anythingelse {
+  background: url('71.jpeg') no-repeat center center/cover;
+  padding: 60px;
+  text-align: center;
+}
+
+.anythingelse h1{color: #fdf6ea; }
+.FORUMSSS {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.HEZKIE {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.APAAJ {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.HEZKIE p { margin-bottom: 12px; line-height: 1.4; }
+.HEZKIE h3 { margin-bottom: 10px; font-weight: bold; }
+
+.MISAEL {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+  background-color: #504128;
+  position: relative;
+}
+.MIKHAEL { flex: 1; padding-right: 40px; max-width: 500px; }
+.MIKHAEL h1 { font-size: 2rem; margin-bottom: 10px; color: #f5f0e6;}
+.MIKHAEL h2 { font-size: 1.3rem; margin-bottom: 25px; color: #f5f0e6; }
+.MIKHAEL h3 { margin-top: 20px; margin-bottom: 8px; color: #ff6600; }
+.MIKHAEL p { line-height: 1.6; margin-bottom: 10px; color: #f5f0e6; }
+.BENN { flex: 1; text-align: right; }
+.BENN img { max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.MISAEL .KENZZZ { position: absolute; top: 20px; right: 20px; }
+
+@media (max-width: 768px) {
+  .PELLL, .MISAEL { flex-direction: column; text-align: center; }
+  .ZIEEE, .MIKHAEL { padding-right: 0; max-width: 100%; }
+  .VEL, .BENN { margin-top: 20px; text-align: center; }
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.anything.else h1 {
+  margin-bottom: 30px;
+}
+.FORUMSSS {
+  margin-bottom: 30px;
+}
+.forum-back {
+  margin-top: 20px;
+}
+
+.MISAEL {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+  background-color: #504128;
+  position: relative;
+}
+.BENN {
+  flex: 1;
+  text-align: left;
+}
+.MIKHAEL {
+  flex: 1;
+  padding-left: 40px;
+  max-width: 500px;
+}
+.contact-back {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.BEBASPAGE {
+  background-color: #d8e3d1;
+  padding: 60px;
+  text-align: center;
+}
+
+.BEBASPAGE h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.HARUSNYA {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.BEBAS-trail {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.BEBAS-trail h2 {
+  margin-bottom: 15px;
+  color: #ff6600;
+}
+
+.BEBAS-trail p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.contact-back {
+  margin-top: 40px;
+  display: inline-block;
+}
+.banner {
+  background: url('41.jpeg') no-repeat center center/cover;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+.BEBASPAGE {
+  background-color: #5a422f;
+  padding: 60px;
+  text-align: center;
+}
+
+.BEBASPAGE h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #202020;
+}
+
+.banner2 {
+  background: url('61.jpeg') no-repeat center center/cover;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.banner3 {
+  background: url('52.jpeg') no-repeat center center/cover;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
